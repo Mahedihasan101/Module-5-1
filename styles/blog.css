@@ -4,9 +4,12 @@
   box-sizing: border-box;
 }
 
+/* shared style */
+
 /* new year section styles */
 .new-year {
-  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.05)),url("../images/Banner\ Image.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)),
+    url("../images/Banner\ Image.png");
   width: 1320px;
   height: 600px;
   margin: 50px auto;
@@ -31,4 +34,65 @@ h2 {
   width: 632px;
   height: 246px;
   text-align: center;
+}
+
+/* 60% off section */
+.section-title {
+  width: 802px;
+  height: 790px;
+  text-align: center;
+  margin: 120px auto;
+}
+
+.off {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 88px;
+  color: #ff0000;
+  margin-bottom: 48px;
+}
+.our-holiday {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+.catehori {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+/* party section styles */
+
+.pic {
+  width: 320px;
+}
+
+.wellcome-title {
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-weight: 900;
+  color: white;
+  margin-top: 126px;
+}
+.party {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)),
+    url("../images/Vectorrr.png");
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin: 120px auto;
+  gap: 40px;
+  padding: 70px 138px 126px 70px;
+}
+.wellcome-description {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #b7a4a4;
 }
