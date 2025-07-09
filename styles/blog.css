@@ -94,5 +94,55 @@ h2 {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400px;
-  color: #b7a4a4;
+  color: #e1cbcb;
+  margin-top: 25px;
 }
+.btn{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  margin-top: 50px;
+}
+
+
+/* place styles */
+.join{
+  background-color: #f0ebeb;
+  max-width: 1320px;
+  margin: 120px auto;
+  text-align: center;
+  padding: 110px 385px;
+
+
+}
+
+
+.place{
+  font-family: "Inter", sans-serif;
+  width:550px;
+  height: 272px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.red{
+  color: #FF0000;
+}
+.place h4{
+  margin-top: 20px;
+}
+.butten{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 16px 32px;
+  background-color: #FF0000;
+  border-radius: 8px;
+  border: none;
+  margin-top: 48px;
+
+}
+
