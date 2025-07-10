@@ -89,6 +89,7 @@ h2 {
   margin: 120px auto;
   gap: 40px;
   padding: 70px 138px 126px 70px;
+  border-radius: 10px;
 }
 .wellcome-description {
   font-family: "Inter", sans-serif;
@@ -109,11 +110,12 @@ h2 {
 
 /* place styles */
 .join {
-  background: linear-gradient(rgba(254, 0, 0, 0.1), rgba(0, 0, 0, 0.05));
+  background: linear-gradient(rgba(254, 0, 0, 0.1), rgba(0, 0, 0, 0.0));
   max-width: 1320px;
   margin: 120px auto;
   text-align: center;
   padding: 110px 385px;
+  border-radius: 10px;
 }
 
 .place {
@@ -284,6 +286,7 @@ h2 {
   margin: auto;
   width: 1320px;
   height: 616px;
+  border-radius: 10px;
 }
 .latter-title{
   font-family: "Merriweather", serif;
@@ -306,10 +309,8 @@ h2 {
   width: 648px;
   margin: 48px;
   align-items: center;
-  /* height: 72px; */
 }
 .subcrib input{
-  /* background-color: whitesmoke; */
    font-family: "Inter", sans-serif;
     background-color:#FFFFFF;
     font-size: 18px;
