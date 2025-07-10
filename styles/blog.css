@@ -276,3 +276,118 @@ h2 {
   margin-bottom: 48px;
   width: 896px;
 }
+
+/* latter section title */
+.latter{
+  background: linear-gradient(rgba(254, 0, 0, 0.1), rgba(0, 0, 0, 0.05));
+  text-align: center;
+  margin: auto;
+  width: 1320px;
+  height: 616px;
+}
+.latter-title{
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  color:#070211;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.latter-description{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #7a7373;
+}
+.subcrib{
+  padding: 80px 212px 200px 212px;
+}
+.button{
+  width: 648px;
+  margin: 48px;
+  align-items: center;
+  /* height: 72px; */
+}
+.subcrib input{
+  /* background-color: whitesmoke; */
+   font-family: "Inter", sans-serif;
+    background-color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: 60%;
+    padding: 24px 56px;
+    gap:0px;
+}
+.btn-2{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 24px 56px;
+  background-color: #FF0000;
+
+}
+.from-box{
+  margin-top: 48px;
+}
+
+/* footer section styles */
+footer{
+  width: 1600px;
+  height: 616px;
+  background-color: #000000;
+  margin: 120px auto;
+}
+.footer-title{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.footer-title{
+  color: #e1cbcb;
+   padding: 120px 150px 0px 150px;
+   margin-top: 120px;
+}
+ .footer-title, li button{
+  font-family: "Inter", sans-serif;
+  background-color: #070211 ;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+ 
+}
+.footer-title li{
+  list-style: none;
+}
+.footer-title button{
+  border: none;
+}
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 120px auto;
+}
+.end{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 140px 120px 140px;
+}
+.end p{
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.end ,button{
+  font-family: "Inter", sans-serif;
+  font-size:24px;
+  font-weight:500;
+  color: #ffffff;
+  background-color: #070211;
+  border: none;
+
+}
